@@ -49,3 +49,12 @@ footer {
   background: #333;
   color: white;
 }
+
+.strong{
+  background-color: #4CAF50;
+  border-radius: 5px;
+  padding: 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}h
