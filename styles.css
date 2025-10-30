@@ -438,6 +438,7 @@ i {
     font-family: Arial, sans-serif;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     text-transform: capitalize;
+    font-size: 10px;
   }
 
   .pricing-table th,
@@ -468,6 +469,7 @@ i {
 .first-navigation a.active {
     color: rgb(207, 247, 50);
 }
+
 
 
 
