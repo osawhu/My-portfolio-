@@ -47,7 +47,7 @@ body {
     font-family: "Playfair Display", serif;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #007bff;
+  color: hsl(211, 100%, 73%);
     
 }
 
@@ -254,7 +254,7 @@ hr {
 }
 
 .service-card {
-    background: rgb(18, 34, 80);
+    background: rgb(39, 76, 186);
     width: 280px;
     padding: 25px;
     border-radius: 10px;
@@ -265,9 +265,9 @@ hr {
 
 
 .service-card h3 {
-    color: #0073ff;
+    color: #030e1c;
     margin-bottom: 10px;
-    font-size: 1.3em;
+    font-size: 30px;
     margin: 10px;
     padding-left: 10px;
 }
@@ -538,6 +538,9 @@ i {
     list-style: none;
     gap: 1.5rem;
     flex-wrap: nowrap;
+    background-color: #12243c;
+    border-radius: 10px;
+    
   }
 
   .navbar-container .navbar-menu li a {
@@ -550,6 +553,7 @@ i {
     border: 2px solid transparent;
     transition: all 0.7s ease;
     white-space: nowrap;
+    background-color: #004ca2;
   }
   .navbar-container .navbar-menu li a:hover, .navbar-container .navbar-menu li a.active {
     color: #fff602;
@@ -559,7 +563,7 @@ i {
 
   .navbar-toggle {
     display: none;
-    background: rgb(50, 50, 74);
+    background: #152a45;
     padding: 10px;
     border: none;
     cursor: pointer;
@@ -571,7 +575,7 @@ i {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    background: rgba(0, 4, 250, 0.907);
+    background: rgba(254, 254, 255, 0.907);
   transition: all 0.3s ease-in-out;
   }
    @media (max-width: 880px) {
