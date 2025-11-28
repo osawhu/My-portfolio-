@@ -4,7 +4,7 @@ body {
     padding: 0;
     /* background-color:  rgb(6, 15, 42); */
     /* background-image: url("/assets/laundry images/background-technology-mobile/bg.jpg"); */
-      background-image: url("https://via.placeholder.com/600");
+     background-image: url("assets/laundry images/background-technology-mobile.jpg");
     box-sizing: border-box;
 
     text-align: center;
@@ -624,6 +624,7 @@ i {
       padding: 3px 15px;
     }
   }
+
 
 
 
