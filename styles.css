@@ -242,7 +242,7 @@ hr {
 .services-section h2 {
     font-size: 2em;
     margin-bottom: 40px;
-    color: #004aad;
+    color: hsl(211, 60%, 58%);
 }
 
 .services-container {
@@ -254,7 +254,7 @@ hr {
 }
 
 .service-card {
-    background: rgb(39, 76, 186);
+    background: hsl(211, 96%, 62%);
     width: 280px;
     padding: 25px;
     border-radius: 10px;
@@ -267,7 +267,7 @@ hr {
 .service-card h3 {
     color: #030e1c;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 35px;
     margin: 10px;
     padding-left: 10px;
 }
