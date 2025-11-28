@@ -8,14 +8,30 @@
   </head>
   <body>
     <!-- Navigation -->
-<h2>Contacts....</h2>
-<hr>
+<!-- <h2 class="contact">Contacts....
+
     <nav class="first-navigation">
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
       <a href="contact.html" class="active">Contact</a>
     </nav>
-<hr>
+</h2> -->
+    <nav class="navbar">
+    <div class="navbar-container">
+<div class="navbar-logo">Contacts......</div>
+
+      <button class="navbar-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span></button>
+        <ul class="navbar-menu">
+
+    <li><a class="link-cover" href="index.html">Home</a></li>
+    <li><a class="link-cover" href="services.html">Services</a></li>
+    <li><a class="link-cover" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+  </nav>
     <!-- Content -->
     <main>
 <!-- Font Awesome (icons) -->
@@ -25,12 +41,12 @@
    <i class="fab fa-whatsapp"></i>
 </a>
 <!-- WhatsApp Button -->
-<a href="https://wa.me/2348061986356?text=I%20would%20like%20to%20place%20an%20order" target="_blank" class="btn whatsapp">
+<a href="https://wa.me/2349150772161?text=I%20would%20like%20to%20place%20an%20order" target="_blank" class="btn whatsapp">
   <i class="fab fa-whatsapp"></i> WhatsApp Me
 </a>
 
 <!-- Gmail Button -->
-<a href="mailto:osawhubaba@gmail.com?subject=New%20Order&body=Hello,%20I%20would%20like%20to%20place%20an%20order..." class="btn email">
+<a href="mailto:etinbestcleaningservices@gmail.com?subject=New%20Order&body=Hello,%20I%20would%20like%20to%20place%20an%20order..." class="btn email">
   <i class="fas fa-envelope"></i> Email Me
 </a>
 
@@ -43,6 +59,10 @@ send us an Email and we’ll get back to you as soon as possible.</p>
 <br>
 Thank you for choosing ETIN-BEST Laundry&Dry cleaning service -- Clean, Fresh, Fast! Contact us for bulks discounts or special fabrics Care....</p>
 <hr>
+        <nav class="first-navigation">
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="contact.html">Contact</a>
     </main>
 
     <!-- Footer -->
@@ -54,3 +74,45 @@ Thank you for choosing ETIN-BEST Laundry&Dry cleaning service -- Clean, Fresh, F
     <script src="script.js"></script>
   </body>
 </html>
+  <!-- .card {
+    position: relative;
+    width: 300px;
+    border-radius: 12px;
+    box-sizing: border-box;
+  }
+
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+
+.card::after, .card::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(from var(--angle), transparent 70%, blue);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 2px;
+  border-radius: 10px;
+  animation: 3s spin linear infinite ;
+}
+
+.card::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+
+@keyframes spin {
+  from {
+      --angle: 0deg;
+  }
+  to {
+      --angle: 360deg;
+  }
+}
+ -->

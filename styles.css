@@ -1,8 +1,11 @@
 body {
+  height: 100%;
     margin: 0;
     padding: 0;
-    background-color:  rgb(6, 15, 42);
+    /* background-color:  rgb(6, 15, 42); */
+    background-image: url("/assets/laundry images/background-technology-mobile.jpg");
     box-sizing: border-box;
+
     text-align: center;
      animation: glowPop 1.2s ease-in-out forwards;
 }
@@ -19,11 +22,17 @@ body {
 }
 
 .heading {
+    background-color:  rgb(9, 19, 50);
+    position: sticky;
+    top: 0;
     color: rgb(206, 207, 199);
     letter-spacing: 4px;              
     white-space: nowrap;           
     text-overflow: ellipsis;  
     font-size: 2rem;           
+    position: sticky;
+    top: 0;
+
 
 
 }
@@ -241,6 +250,7 @@ hr {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    
 }
 
 .service-card {
@@ -314,6 +324,9 @@ hr {
     text-align: center;
     font-size: 2.4rem;
     text-decoration: underline;
+    background-color:  rgb(9, 19, 50);
+    position: sticky;
+    top: 0;
 }
 
 
@@ -470,6 +483,144 @@ i {
     color: rgb(207, 247, 50);
 }
 
+.contact {
+    background-color:  rgb(9, 19, 50);
+    position: sticky;
+    top: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    /* 🔥 Frosted Glass */
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(120px);
+    -webkit-backdrop-filter: blur(120px);
+
+    /* ✨ Soft Glass Border */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+
+    /* 💡 Glow effect */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45);
+
+    z-index: 999;
+}
 
 
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2rem;
+    max-width: 1200px;
+
+  }
+.navbar-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+
+  .navbar-container .navbar-menu {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    gap: 1.5rem;
+    flex-wrap: nowrap;
+  }
+
+  .navbar-container .navbar-menu li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 3px 20px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: all 0.7s ease;
+    white-space: nowrap;
+  }
+  .navbar-container .navbar-menu li a:hover, .navbar-container .navbar-menu li a.active {
+    color: #fff602;
+    background: rgba(0, 0, 0, 0.998);
+    border: 2px solid;
+  }
+
+  .navbar-toggle {
+    display: none;
+    background: rgb(50, 50, 74);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background: rgba(0, 4, 250, 0.907);
+  transition: all 0.3s ease-in-out;
+  }
+   @media (max-width: 880px) {
+    .navbar {
+      backdrop-filter: none ;
+    }
+    .navbar-container .navbar-menu {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.7rem !important;
+      position: absolute;
+      height: 100vh;
+      width: 250px;
+      top: 0;
+      right: 0;
+      padding: 5rem 1.5rem ;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(50px);
+    } 
+        .navbar-container .navbar-menu.active {
+      display: flex;
+    }
+    .navbar-toggle {
+      display: block;
+      z-index: 999;
+    }
+    .navbar-toggle.active  .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .navbar-toggle.active  .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+    .navbar-toggle.active  .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+   }
+  @media (max-width: 480px) {
+    .navbar-container{
+      padding: 0.1rem;
+    }
+
+    .navbar-logo {
+      font-size: 1.7rem; 
+    }
+
+    .navbar-container .navbar-menu li a {
+      font-size: 1.2rem;
+      padding: 3px 15px;
+    }
+  }
 

@@ -78,3 +78,26 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 });
+
+
+  const navbarToggle = document.querySelector('.navbar-toggle')
+
+const navbarMenu = document.querySelector('.navbar-menu');
+
+navbarToggle.addEventListener('click', () => {
+    navbarToggle.classList.toggle('active');
+    navbarMenu.classList.toggle('active');
+});
+// Wait until the page is fully loaded
+window.addEventListener("load", function() {
+    // Keep preloader for 2 seconds
+    setTimeout(() => {
+        const preloader = document.getElementById("preloader");
+        preloader.style.opacity = "0"; // fade out
+        // After transition, remove from display
+        setTimeout(() => preloader.style.display = "none", 800);
+    }, 2000); // 2000ms = 2 seconds
+});
+
+
+
