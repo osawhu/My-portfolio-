@@ -4,7 +4,7 @@ body {
     padding: 0;
     /* background-color:  rgb(6, 15, 42); */
     /* background-image: url("/assets/laundry images/background-technology-mobile/bg.jpg"); */
-     background-image: url("assets/laundry images/background-technology-mobile.jpg");
+    background-image: url("./laundry images/images.png");
     box-sizing: border-box;
 
     text-align: center;
@@ -624,6 +624,7 @@ i {
       padding: 3px 15px;
     }
   }
+
 
 
 
