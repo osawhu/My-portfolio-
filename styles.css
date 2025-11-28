@@ -47,7 +47,7 @@ body {
     font-family: "Playfair Display", serif;
   font-size: 2.5rem;
   font-weight: 700;
-  color: hsl(211, 100%, 73%);
+  color: hsl(212, 100%, 74%);
     
 }
 
@@ -242,7 +242,7 @@ hr {
 .services-section h2 {
     font-size: 2em;
     margin-bottom: 40px;
-    color: hsl(211, 60%, 58%);
+    color: hsl(0, 0%, 91%);
 }
 
 .services-container {
@@ -254,7 +254,7 @@ hr {
 }
 
 .service-card {
-    background: hsl(211, 96%, 62%);
+    background: hsl(211, 53%, 11%);
     width: 280px;
     padding: 25px;
     border-radius: 10px;
@@ -265,7 +265,7 @@ hr {
 
 
 .service-card h3 {
-    color: #030e1c;
+    color: #ffffff;
     margin-bottom: 10px;
     font-size: 35px;
     margin: 10px;
@@ -586,10 +586,10 @@ i {
       display: none;
       flex-direction: column;
       align-items: flex-start;
-      gap: 1.7rem !important;
+      gap: 14px !important;
       position: absolute;
       height: 100vh;
-      width: 250px;
+      width: 190px;
       top: 0;
       right: 0;
       padding: 5rem 1.5rem ;
@@ -627,4 +627,8 @@ i {
       padding: 3px 15px;
     }
   }
+
+.menu-hours, .menu-location, .menu-info  {
+  color: white;
+}
 
