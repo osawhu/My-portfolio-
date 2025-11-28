@@ -586,7 +586,7 @@ i {
       display: none;
       flex-direction: column;
       align-items: flex-start;
-      gap: 14px !important;
+      gap: 17px !important;
       position: absolute;
       height: 100vh;
       width: 190px;
@@ -631,4 +631,5 @@ i {
 .menu-hours, .menu-location, .menu-info  {
   color: white;
 }
+
 
