@@ -3,8 +3,7 @@ body {
     margin: 0;
     padding: 0;
     /* background-color:  rgb(6, 15, 42); */
-    /* background-image: url("/assets/laundry images/background-technology-mobile/bg.jpg"); */
-    background-image: url("./laundry images/images.png");
+    background-image: url("./laundry images/Screenshot_20251128-114603.jpg");
     box-sizing: border-box;
 
     text-align: center;
@@ -624,10 +623,4 @@ i {
       padding: 3px 15px;
     }
   }
-
-
-
-
-
-
 
