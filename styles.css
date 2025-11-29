@@ -260,6 +260,10 @@ hr {
     border-radius: 10px;
     box-shadow: 0 0 12px rgba(0,0,0,0.05);
     text-align: left;
+    border: 2px solid white;
+    box-shadow: 0 0 3px white;
+    border-width: 1px;
+    
 }
 
 
@@ -586,7 +590,7 @@ i {
       display: none;
       flex-direction: column;
       align-items: flex-start;
-      gap: 17px !important;
+      gap: 15px !important;
       position: absolute;
       height: 100vh;
       width: 190px;
@@ -630,6 +634,6 @@ i {
 
 .menu-hours, .menu-location, .menu-info  {
   color: white;
-}
 
+}
 
